@@ -1,0 +1,12 @@
+{
+    "name": "review-app",
+    "version": "1.0.0",
+    "description": "A simple review application using Node.js",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

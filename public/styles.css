@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#reviewForm {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#reviewForm input,
+#reviewForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+#reviewForm button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#reviewForm button:hover {
+    background: #555;
+}
+
+.review {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.review h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.rating {
+    font-size: 24px;
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.star {
+    cursor: pointer;
+}
+
+.stars .filled {
+    color: #ffd700;
+}
